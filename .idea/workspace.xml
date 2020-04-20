@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69edc10d-db20-4280-b529-4eb141b2542f" name="Default Changelist" comment="" />
+    <list default="true" id="69edc10d-db20-4280-b529-4eb141b2542f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_7.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aDCOvFqzqmMqEXSEnLwEKcAQY7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../homework" />
   </component>
@@ -32,20 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task_7">
-    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Task_1" />
-      <module name="Алгоритмы" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.Trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task_8">
     <configuration name="Task_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Task_5" />
       <module name="Алгоритмы" />
@@ -85,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Trees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Trees.Trees" />
+    <configuration name="Task_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Task_8" />
       <module name="Алгоритмы" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Trees.*" />
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="qwerff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.qwerff" />
+      <module name="Алгоритмы" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +107,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Trees" />
-      <item itemvalue="Application.Task_1" />
       <item itemvalue="Application.Task_5" />
       <item itemvalue="Application.Task_6" />
       <item itemvalue="Application.Task_7" />
+      <item itemvalue="Application.Task_8" />
+      <item itemvalue="Application.qwerff" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_8" />
+        <item itemvalue="Application.qwerff" />
         <item itemvalue="Application.Task_7" />
         <item itemvalue="Application.Task_6" />
         <item itemvalue="Application.Task_5" />
-        <item itemvalue="Application.Trees" />
-        <item itemvalue="Application.Task_1" />
       </list>
     </recent_temporary>
   </component>
@@ -127,5 +135,18 @@
       <updated>1586260748797</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
