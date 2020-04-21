@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69edc10d-db20-4280-b529-4eb141b2542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_7.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +38,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task_8">
-    <configuration name="Task_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Task_5" />
+  <component name="RunManager" selected="Application.Task_10">
+    <configuration name="цуа" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.цуа" />
+      <module name="Алгоритмы" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Task_10" />
       <module name="Алгоритмы" />
       <extension name="coverage">
         <pattern>
@@ -80,21 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Task_8" />
-      <module name="Алгоритмы" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="qwerff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.qwerff" />
+    <configuration name="Task_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Task_9" />
       <module name="Алгоритмы" />
       <extension name="coverage">
         <pattern>
@@ -107,19 +105,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task_5" />
       <item itemvalue="Application.Task_6" />
       <item itemvalue="Application.Task_7" />
-      <item itemvalue="Application.Task_8" />
-      <item itemvalue="Application.qwerff" />
+      <item itemvalue="Application.цуа" />
+      <item itemvalue="Application.Task_9" />
+      <item itemvalue="Application.Task_10" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task_8" />
-        <item itemvalue="Application.qwerff" />
-        <item itemvalue="Application.Task_7" />
+        <item itemvalue="Application.Task_10" />
+        <item itemvalue="Application.Task_9" />
+        <item itemvalue="Application.цуа" />
         <item itemvalue="Application.Task_6" />
-        <item itemvalue="Application.Task_5" />
+        <item itemvalue="Application.Task_7" />
       </list>
     </recent_temporary>
   </component>
