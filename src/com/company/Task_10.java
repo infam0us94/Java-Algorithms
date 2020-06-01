@@ -31,7 +31,6 @@ public class Task_10 {
 
                 valueSoFar += items[currentItem].getValue();
                 weightSoFar += items[currentItem].getWeight();
-
             } else {
                 //берем только частями
                 valueSoFar += ((W - weightSoFar) / (double) items[currentItem].getWeight()) * items[currentItem].getValue();

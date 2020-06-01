@@ -9,10 +9,10 @@ public class Task_5 {
 
     public static void main(String args[]) {
 
-        String text = "мама мыла раму ";
+        String text = "мама мыла раму мыла ";
         String sample = "мыла";
 
-        System.out.println(Arrays.toString(searchNaive(text,sample).toArray()));
+//        System.out.println(Arrays.toString(searchNaive(text,sample).toArray()));
 
         System.out.println(Arrays.toString(KMPSearch(text, sample).toArray()));
     }

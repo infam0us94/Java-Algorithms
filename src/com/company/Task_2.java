@@ -2,6 +2,8 @@ package com.company;
 
 //Сортировка пузырьком
 
+import java.util.Arrays;
+
 public class Task_2 {
 
     public static void main(String args[]) {
