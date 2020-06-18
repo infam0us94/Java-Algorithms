@@ -1,7 +1,12 @@
 package com.company;
 
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Map;
 import java.util.TreeMap;
 
 //Алгоритм Хаффмана для компрессии данных
@@ -35,6 +40,8 @@ public class Task_11 {
 
         String decoded = huffmanDecode(encoded.toString(), tree);
         System.out.println("Расшифровано: " + decoded);
+
+//        fileCompressTest();
     }
 
     //сколько раз символ встречается в строке
@@ -118,4 +125,103 @@ public class Task_11 {
             return null;
         }
     }
+
+    // сохрняем тблицы частот и сжатой информации в файл
+//    private static void saveToFile(File output, Map<Character, Integer> frequencies, String bits) {
+//        try {
+//            DataOutputStream os = new DataOutputStream(new FileOutputStream(output));
+//            os.writeInt(frequencies.size());
+//            for (Character character : frequencies.keySet()) {
+//                os.writeChar(character);
+//                os.writeInt(frequencies.get(character));
+//            }
+//            int compressedSizeBits = bits.length();
+//            Task_11_1.BitArray bitArray = new Task_11_1.BitArray(compressedSizeBits);
+//            for (int i = 0; i < bits.length(); i++) {
+//                bitArray.set(i, bits.charAt(i) != '0' ? 1 : 0);
+//            }
+//
+//            os.writeInt(compressedSizeBits);
+//            os.write(bitArray.bytes, 0, bitArray.getSizeInBytes());
+//            os.flush();
+//            os.close();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//    }
+
+    // загрузка сжатой информации и таблицы частот из файла
+//    private static void loadFromFile(File input, Map<Character, Integer> frequencies, StringBuilder bits) {
+//
+//        try {
+//            DataInputStream os = new DataInputStream(new FileInputStream(input));
+//            int frequencyTablesSize = os.readInt();
+//            for (int i = 0; i < frequencyTablesSize; i++) {
+//                frequencies.put(os.readChar(), os.readInt());
+//            }
+//            int dataSizeBits = os.readInt();
+//            Task_11_1.BitArray bitArray = new Task_11_1.BitArray(dataSizeBits);
+//            os.read(bitArray.bytes, 0, bitArray.getSizeInBytes());
+//            os.close();
+//            for (int i = 0; i < bits.length(); i++) {
+//                bits.append(bitArray.get(i) != '0' ? 1 : 0);
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
+
+    //проверка алгоритма сжатия на тестовом файле
+//    private static void fileCompressTest() {
+//        try {
+    //загрузка содержимого файла в виде строки
+//            String content = new String(Files.readAllBytes(Paths.get("C:\\Users\\GE60\\Downloads\\Java 8. Полное руководство. ( PDFDrive.com ).pdf")));
+    //вычисление таблицы частот с которыми встречаются символы в тексте
+//            TreeMap<Character, Integer> frequencies = countFrequency(content);
+//            ArrayList<CodeTreeNode> codeTreeNodes = new ArrayList<>();
+// генераия листов будущего дерева для символов текста
+//            for (Character c : frequencies.keySet()) {
+//                codeTreeNodes.add(new CodeTreeNode(c, frequencies.get(c)));
+//            }
+    //построение кодового дерева флгоритма Хаффмана
+//            CodeTreeNode tree = huffman(codeTreeNodes);
+//
+    //построение таблицы префиксных кодов для символов исходного текста
+//            TreeMap<Character, String> codes = new TreeMap<>();
+//            for (Character c : frequencies.keySet()) {
+//                codes.put(c, tree.getCodeForCharacters(c, ""));
+//            }
+    //кодирование текста префексными кодами
+//            StringBuilder encoded = new StringBuilder();
+//            for (int i = 0; i < content.length(); i++) {
+//                encoded.append(codes.get(content.charAt(i)));
+//            }
+//
+    //сохранение сжфтой информации из файла
+//            File file = new File("C:\\Users\\GE60\\Downloads");
+//            saveToFile(file, frequencies, encoded.toString());
+//
+//            TreeMap<Character, Integer> frequencies2 = new TreeMap<>();
+//            StringBuilder encoded2 = new StringBuilder();
+//            codeTreeNodes.clear();
+//
+    //извлечение сжатой информации из файла
+//            loadFromFile(file, frequencies2, encoded2);
+//
+    //генерация листов и постоение кодового дерева Хаффмана на основе таблицы частот сжатого файла
+//            for (Character c : frequencies2.keySet()) {
+//                codeTreeNodes.add(new CodeTreeNode(c, frequencies2.get(c)));
+//            }
+//            CodeTreeNode tree2 = huffman(codeTreeNodes);
+//
+    // декодирование обратно исходной информации из сжатой
+//            String decoded = huffmanDecode(encoded2.toString(), tree2);
+//
+    // сохранение в файл декодированной информации
+//            Files.write(Paths.get("C:\\Users\\GE60\\Downloads\\decompressed.txt"), decoded.getBytes());
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
 }

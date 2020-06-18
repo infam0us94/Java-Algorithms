@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69edc10d-db20-4280-b529-4eb141b2542f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Алгоритмы/com/company/Task_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Task_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Task_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Task_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task_11.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,19 +42,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Task_11">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Алгоритмы" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Task_10" />
       <module name="Алгоритмы" />
@@ -87,6 +68,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_11_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Task_11_1" />
+      <module name="Алгоритмы" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ыкы" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ыкы" />
+      <module name="Алгоритмы" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ac" />
+      <module name="Алгоритмы" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.main" />
       <module name="Алгоритмы" />
@@ -100,33 +120,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wegrfbd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.wegrfbd" />
-      <module name="Алгоритмы" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.main" />
-      <item itemvalue="Application.wegrfbd" />
       <item itemvalue="Application.Task_10" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.ac" />
+      <item itemvalue="Application.Task_11_1" />
       <item itemvalue="Application.Task_11" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Task_11" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task_10" />
+        <item itemvalue="Application.Task_11_1" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.wegrfbd" />
+        <item itemvalue="Application.ac" />
       </list>
     </recent_temporary>
   </component>
